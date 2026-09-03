@@ -50,3 +50,31 @@ main {
     margin-bottom: 10px;
     border: 1px solid #ecebd7;
 }
+
+.item {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0;
+}
+
+.item span:last-child {
+    font-weight: bold;
+}
+.cafe {
+    width: 80%;
+    margin: 20px auto;
+}
+
+.cafe img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    display: block;
+}
+footer {
+    background-color: #44280d;
+    color: #f7f6e4;
+    text-align: center;
+    padding: 15px;
+    margin: 0px;
+}
